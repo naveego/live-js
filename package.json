@@ -1,0 +1,30 @@
+{
+  "name": "@naveego/live-js",
+  "version": "0.1.6",
+  "description": "The JavaScript/TypeScript client for the Naveego Live service.",
+  "main": "lib/index.js",
+  "typings": "lib/index",
+  "files": [
+    "lib/"
+  ],
+   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naveego/live-js.git"
+  },
+  "author": "Naveego",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naveego/live-js/issues"
+  },
+  "homepage": "https://github.com/naveego/live-js#readme",
+  "dependencies": {
+    "socket.io-client": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/socket.io-client": "^1.4.31"
+  }
+}
