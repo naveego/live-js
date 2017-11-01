@@ -188,19 +188,19 @@ export class LiveClient {
  */
 export class PipelineLiveClient extends LiveClient{
     
-        constructor(socket: SocketIOClient.Socket) {
-            super(socket);
-        }
-        
-        /**
-         * Gets the registered agents, as a hash of agentID:socketID.
-         * 
-         * @returns {Promise<{[agentID:string]:string}>} 
-         * @memberof PipelineLiveClient
-         */
-        public getRegisteredAgents(): Promise<{[agentID:string]:string}>{
-            return this.request("Pipeline", "GetRegisteredAgents", {})
-        }
-    
-    
+    constructor(socket: SocketIOClient.Socket) {
+        super(socket);
     }
+    
+    /**
+     * Gets the registered agents, as a hash of agentID:socketID.
+     * 
+     * @returns {Promise<{[agentID:string]:string}>} 
+     * @memberof PipelineLiveClient
+     */
+    public getRegisteredAgents(): Promise<{[agentID:string]:string}>{
+        return this.request("Pipeline", "GetRegisteredAgents", {})
+    }
+
+
+}
