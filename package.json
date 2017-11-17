@@ -1,13 +1,13 @@
 {
   "name": "@naveego/live-js",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "The JavaScript/TypeScript client for the Naveego Live service.",
   "main": "lib/index.js",
   "typings": "lib/index",
   "files": [
     "lib/"
   ],
-   "scripts": {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "tsc"
   },
