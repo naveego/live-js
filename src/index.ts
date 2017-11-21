@@ -1,5 +1,6 @@
 
 import * as ioclient from "socket.io-client";
+import Promise from 'bluebird';
 
 /**
  * This event indicates a JSON-RPC request which expects a response.
