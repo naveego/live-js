@@ -1,6 +1,6 @@
 {
   "name": "@naveego/live-js",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "The JavaScript/TypeScript client for the Naveego Live service.",
   "main": "lib/index.js",
   "typings": "lib/index",
